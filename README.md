@@ -9,16 +9,7 @@ __Bitte zuerst__ `IntelliJ` und git installieren.
 
 ### Business-Case
 
-```plantuml
-@startuml
-actor client
-node app
-node car
-node tshirt
+Für das UML-Diagramm bitte [carproduction-kontext.iuml](docs/carproduction-kontext.iuml) editieren:
 
-car -> app
-app -> client
-client -> tshirt
-@enduml
-```
+![carproduction-kontext](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/fh-erfurt/car-production-corp/master/docs/carproduction-kontext.iuml)
 
